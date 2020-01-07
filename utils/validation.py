@@ -1,5 +1,5 @@
-import tqdm
 import torch
+import tqdm
 
 
 def validate(hp, args, generator, discriminator, valloader, writer, step):

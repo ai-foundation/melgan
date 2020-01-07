@@ -1,11 +1,10 @@
-import os
-import math
-import tqdm
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 import itertools
+import math
+import os
 import traceback
+
+import torch
+import tqdm
 
 from model.generator import Generator
 from model.multiscale import MultiScaleDiscriminator

@@ -1,13 +1,12 @@
+import argparse
+import logging
 import os
 import time
-import logging
-import argparse
 
-from utils.train import train
-from utils.hparams import HParam
-from utils.writer import MyWriter
 from datasets.dataloader import create_dataloader
-
+from utils.hparams import HParam
+from utils.train import train
+from utils.writer import MyWriter
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

@@ -1,6 +1,4 @@
-import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 from .discriminator import Discriminator
 from .identity import Identity

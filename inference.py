@@ -1,8 +1,9 @@
-import os
-import glob
-import tqdm
-import torch
 import argparse
+import glob
+import os
+
+import torch
+import tqdm
 from scipy.io.wavfile import write
 
 from model.generator import Generator

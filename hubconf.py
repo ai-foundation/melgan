@@ -1,5 +1,6 @@
 dependencies = ['torch']
 import torch
+
 from model.generator import Generator
 
 model_params = {

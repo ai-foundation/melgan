@@ -1,12 +1,13 @@
-import os
-import glob
-import tqdm
-import torch
 import argparse
-import numpy as np
+import glob
+import os
 
-from utils.stft import TacotronSTFT
+import numpy as np
+import torch
+import tqdm
+
 from utils.hparams import HParam
+from utils.stft import TacotronSTFT
 from utils.utils import read_wav_np
 
 
